@@ -33,7 +33,7 @@ export default function Navbar() {
         { /* Mobile Menu (visible in mobile view) */ }
         {isMobileMenuOpen && (
           <div className="w-full md:hidden">
-            <ul className="font-medium flex flex-col p-4 mt-4 text-center rounded-lg bg-gray-50">
+            <ul className="font-medium flex flex-col p-4 mt-4 text-center rounded-lg ">
               <li>
                 <Link href="/" className={pathname === '/' ? activeElement : nonActiveElement}>
                   Home
