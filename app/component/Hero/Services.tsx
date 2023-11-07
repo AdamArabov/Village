@@ -19,7 +19,7 @@ export default function Services(){
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 <div className="flex items-center flex-wrap text-center">
-                  <Link href="/services" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Services</Link>
+                  <Link href="/services#service-0" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">DMV Vision Test</Link>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function Services(){
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 <div className="flex items-center flex-wrap text-center">
-                  <Link href="/products" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Products</Link>
+                  <Link href="/services#service-1" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Vaccines</Link>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function Services(){
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 <div className="flex items-center flex-wrap text-center">
-                  <Link href="/photos" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Photos</Link>
+                  <Link href="/services#service-2" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Prescription</Link>
                 </div>
               </div>
             </div>

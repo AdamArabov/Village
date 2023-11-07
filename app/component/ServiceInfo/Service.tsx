@@ -8,6 +8,7 @@ export default function Service() {
         {servicesData.services.map((service, index) => (
           <div
             key={index}
+            id={`service-${index}`}
             className="service-section bg-cover relative h-screen"
             style={{
               backgroundImage: `url(${service.image})`,
