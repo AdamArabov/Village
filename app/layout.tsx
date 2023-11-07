@@ -17,14 +17,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Navbar/>
-        <div className="mx-4"> 
-          {children}
-        </div>
-        <Footer/>
-        </body>
-    </html>
+<html lang="en">
+  <body className={inter.className} style={{ display: "grid", gridTemplateRows: "auto 1fr auto", minHeight: "100vh" }}>
+    <Navbar />
+    <div className="mx-4">
+      {children}
+    </div>
+    <Footer />
+  </body>
+</html>
   )
 }

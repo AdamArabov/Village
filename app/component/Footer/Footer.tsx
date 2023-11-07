@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="text-gray-600 body-font">
-      <div className="container px-2 sm:px-5 py-4 sm:py-8 mx-auto flex flex-col sm:flex-row items-center">
+      <div className="container px-2 sm:px-5 py-4 sm:py-8 mx-auto flex flex-col sm:flex-row items-center mt-auto">
         <div className="sm:w-1/4 sm:text-center text-center mb-4 sm:mb-0">
           <a className="flex title-font font-medium items-center justify-center text-gray-900">
             <svg
