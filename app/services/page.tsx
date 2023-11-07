@@ -1,7 +1,9 @@
+import Service from "../component/ServiceInfo/Service";
+
 export default function Services() {
     return(
         <div>
-            hi
+            <Service/>
         </div>
     )
 }
