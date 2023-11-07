@@ -54,7 +54,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="bg-vill hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
+          className="bg-vill hover:bg-green-500 text-white font-bold py-2 px-4  focus:outline-none focus:shadow-outline"
         >
           Submit
         </button>
