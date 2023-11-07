@@ -3,13 +3,13 @@ import Map from "../component/Map/Map";
 
 export default function Contact(){
     return(
-<div>
-        <div className="mt-5 w-screen h-screen md:w-1/2 md:h-screen lg:w-1/2 lg:h-screen">
-        <Map/>
-        </div>
-        <div>
-        <ContactForm/>
-        </div>
+<div className="flex pt-4">
+  <div className="w-screen h-screen md:w-1/2 lg:w-1/2">
+    <Map />
+  </div>
+  <div className="w-screen md:w-1/2 lg:w-1/2 pt-10">
+    <ContactForm />
+  </div>
 </div>
     )
 }

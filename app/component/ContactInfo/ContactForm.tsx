@@ -3,11 +3,12 @@ import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('xvojydon');
+//   will make into a env later
 
   if (state.succeeded) {
     return (
       <div className="text-center mt-8">
-        <p className="text-green-500 text-lg">Thanks for joining!</p>
+        <p className="text-vill text-lg">Thanks You!</p>
       </div>
     );
   }
@@ -53,7 +54,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
+          className="bg-vill hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
         >
           Submit
         </button>
