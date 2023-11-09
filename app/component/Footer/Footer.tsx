@@ -80,10 +80,11 @@ export default function Footer() {
             <span className="block">100 Village Sq suite 130</span>
             <span className="block">Glen Cove, NY 11542, USA</span>
             <span className="block">Phone | (516) 201-2820</span>
-            <span className="block">Email | info@tailblocks.com</span>
+            <span className="block">Email | villagesquarerx@gmail.com</span>
             <span className="block">Hours of Operation:</span>
             <span className="block">Mon-Fri: 9:00 AM - 6:30 PM</span>
-            <span className="block">Sat:9:00 AM - 5:00 PM  Sun: Closed</span>
+            <span className="block">Sat:9:00 AM - 5:00 PM</span>
+            <span className="block">Sun: Closed</span>
           </p>
         </div>
       </div>
