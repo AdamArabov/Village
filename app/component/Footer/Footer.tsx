@@ -77,13 +77,13 @@ export default function Footer() {
         </div>
         <div className="sm:w-1/4 sm:text-center sm:text-right text-center mt-4 sm:mt-0">
           <p className="text-sm text-vill">
-            <span className="block">123 Main Street</span>
-            <span className="block">City, State ZIP</span>
-            <span className="block">Phone: (123) 456-7890</span>
-            <span className="block">Email: info@tailblocks.com</span>
+            <span className="block">100 Village Sq suite 130</span>
+            <span className="block">Glen Cove, NY 11542, USA</span>
+            <span className="block">Phone | (516) 201-2820</span>
+            <span className="block">Email | info@tailblocks.com</span>
             <span className="block">Hours of Operation:</span>
-            <span className="block">Mon-Fri: 9:00 AM - 5:00 PM</span>
-            <span className="block">Sat-Sun: Closed</span>
+            <span className="block">Mon-Fri: 9:00 AM - 6:30 PM</span>
+            <span className="block">Sat:9:00 AM - 5:00 PM  Sun: Closed</span>
           </p>
         </div>
       </div>
