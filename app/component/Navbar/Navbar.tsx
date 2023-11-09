@@ -1,5 +1,7 @@
 'use client'
+import Image from "next/image";
 import Link from "next/link"
+import Logo from "@/public/NavLogo.png"
 import { usePathname} from "next/navigation"
 import { useState } from 'react';
 
@@ -18,7 +20,14 @@ export default function Navbar() {
     <nav className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 shadow-md sticky top-0 z-10">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Village Logo</span>
+        <Image
+         src={Logo}
+         alt="Logo" 
+         className="self-center w-auto"
+         width={200}
+         />
+
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </Link>
 
         { /* Mobile Menu Button (visible in mobile view) */ }
