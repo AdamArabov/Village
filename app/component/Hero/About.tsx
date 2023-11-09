@@ -12,9 +12,7 @@ export default function About () {
               </div>
             </h2>
             <div className="text-lg text-gray-600 mt-4">
-              Village Square Pharmacy is your trusted community pharmacy, dedicated to providing exceptional
-              healthcare services and medications. With a commitment to personal care and well-being, our
-              experienced team of pharmacists and staff is here to serve you.
+            Village Square Pharmacy is a brand new retail pharmacy located in the heart of Glen Cove. That is not an accident as we are able to service all of Glen Cove and even Sea Cliff  to meet the demand for quality healthcare. We are poised to step up and provide exceptional, professional and individualized service to all our customers. The pharmacist, Yury Arabov, has 25 years of pharmacy experience, with 20 years of that in Glen Cove.  The pharmacy provides many essential services as well as carrying a wide selection of everyday and specialized items
             </div>
             
           </div>
