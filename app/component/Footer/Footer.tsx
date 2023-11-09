@@ -1,23 +1,23 @@
+'use client'
+import Image from "next/image";
+import Link from "next/link"
+import Logo from '@/public/NavLogo.png'
+
 export default function Footer() {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container px-2 sm:px-5 py-4 sm:py-8 mx-auto flex flex-col sm:flex-row items-center mt-auto">
         <div className="sm:w-1/4 sm:text-center text-center mb-4 sm:mb-0">
-          <a className="flex title-font font-medium items-center justify-center text-gray-900">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-xl">Tailblocks</span>
-          </a>
+        <Link href="/" className="flex items-center">
+        <Image
+         src={Logo}
+         alt="Logo" 
+         className="self-center w-auto"
+         width={200}
+         />
+
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+        </Link>
         </div>
         <div className="sm:w-1/2 text-center">
           <span className="inline-flex justify-center">
