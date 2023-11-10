@@ -11,15 +11,12 @@ export default function Service() {
           id={`service-${index}`}
           className={`service-section bg-cover relative h-screen bg-fixed`}
           style={{
-            // Set the desktop image as the default background image
             backgroundImage: `url(${service.mobileImg})`,
           }}
         >
-          {/* Use Tailwind's media query feature to change background image on small screens */}
           <div
             className={`sm:bg-cover sm:h-full md:h-screen lg:h-screen`}
             style={{
-              // Override with mobile image for small screens
               backgroundImage: `url(${service.image})`,
               backgroundAttachment: 'fixed',
               backgroundSize: 'cover',
