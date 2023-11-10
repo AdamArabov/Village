@@ -1,7 +1,7 @@
 import productsData from './product.json'
 
 export default function Product() {
-    const featuredImage = 'https://www.themacallan.com/sites/default/files/styles/hero_image_small/public/MAC-2022-Lifestyle-Accessories-Illustration-Picnic-16x9-400dpi-1MB.jpg?itok=yflBBoXE'; // Replace with the path to your featured image
+    const featuredImage = '/interior1.jpg'; 
     const otherProducts = productsData.products;
   
     return (
