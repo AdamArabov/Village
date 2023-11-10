@@ -12,14 +12,16 @@ export default function Product() {
         {/* Other Products */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {otherProducts.map((product, index) => (
-            <div key={index} className="bg-white p-4 shadow-md rounded-md">
+            <div 
+            key={index} 
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-white bg-opacity-50 p-4 shadow-md rounded-md">
               <img
                 src={product.image}
                 alt={product.name}
                 className="w-full h-40 object-cover rounded-md"
               />
               <div className="mt-4 text-center">
-                <h2 className="text-xl font-semibold">{product.name}</h2>
+                <h2 className="text-xl text-vill font-semibold">{product.name}</h2>
               </div>
             </div>
           ))}
