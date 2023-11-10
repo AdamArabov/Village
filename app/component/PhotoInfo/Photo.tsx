@@ -8,7 +8,7 @@ export default function Photo() {
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentIndex(prevIndex => (prevIndex + 1) % photosData.photos.length);
-        }, 5000); // Change image every 5000 milliseconds (5 seconds)
+        }, 10000); // Change image every 5000 milliseconds (5 seconds)
 
         return () => clearInterval(timer); // Clear the interval on component unmount
     }, []);

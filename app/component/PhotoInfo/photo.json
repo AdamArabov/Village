@@ -1,13 +1,25 @@
 {
     "photos": [
         {
-            "image" : "/AROMA.jpg"
+            "image" : "/Photo (1).jpg"
         },
         {
-            "image" : "/CREAM.jpg"
+            "image" : "/Photo (2).jpg"
         },
         {
-            "image" : "/CBD.jpg"
+            "image" : "/Photo (3).jpg"
+        },
+        {
+            "image" : "/Photo (4).jpg"
+        },
+        {
+            "image" : "/Photo (5).jpg"
+        },
+        {
+            "image" : "/Photo (6).jpg"
+        },
+        {
+            "image" : "/Photo (7).jpg"
         }
     ]
 }
