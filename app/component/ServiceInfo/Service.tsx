@@ -3,31 +3,41 @@ import servicesData from './service.json'
 
 
 export default function Service() {
-    return (
-      <div className="service-container">
-        {servicesData.services.map((service, index) => (
+  return (
+    <div className="service-container">
+      {servicesData.services.map((service, index) => (
+        <div
+          key={index}
+          id={`service-${index}`}
+          className={`service-section bg-cover relative h-screen bg-fixed`}
+          style={{
+            // Set the desktop image as the default background image
+            backgroundImage: `url(${service.mobileImg})`,
+          }}
+        >
+          {/* Use Tailwind's media query feature to change background image on small screens */}
           <div
-            key={index}
-            id={`service-${index}`}
-            className="service-section bg-cover relative h-screen"
+            className={`sm:bg-cover sm:h-full md:h-screen lg:h-screen`}
             style={{
+              // Override with mobile image for small screens
               backgroundImage: `url(${service.image})`,
               backgroundAttachment: 'fixed',
+              backgroundSize: 'cover',
             }}
-          >
-            <div className="service-content absolute inset-0 flex items-center justify-center bg-opacity-50 bg-gray-200">
-              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-                <h1 className="text-4xl font-bold mb-4">{service.name}</h1>
-                <p className="text-gray-700">{service.description}</p>
-              </div>
+          ></div>
+          <div className="service-content absolute inset-0 flex items-center justify-center bg-opacity-50 bg-gray-200">
+            <div className="bg-white bg-opacity-50 p-8 rounded-lg shadow-lg text-center">
+              <h1 className="text-4xl font-bold mb-4">{service.name}</h1>
+              <p className="text-gray-700">{service.description}</p>
             </div>
           </div>
-        ))}
-      </div>
-    );
-  }
-  
-  
+        </div>
+      ))}
+    </div>
+  );
+}
+
+
   
   
   
