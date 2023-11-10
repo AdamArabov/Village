@@ -7,7 +7,20 @@ export default function Product() {
     return (
       <div className="container mx-auto py-8">
         {/* Featured Product */}
-        <img src={featuredImage} alt="Featured Product" className="w-full h-96 object-cover mb-8" />
+        <div className="relative mb-8">
+        <img src={featuredImage} alt="Featured Product" className="w-full h-96 object-cover" />
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-40"></div>
+        <div
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-7xl md:text-7xl text-center font-bold tracking-wide text-white"
+          style={{
+            textShadow: '2px 2px #cf2361',
+            fontWeight: 700,
+            textTransform: 'none',
+          }}
+        >
+          Our Products
+        </div>
+      </div>
   
         {/* Other Products */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
