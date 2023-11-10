@@ -8,13 +8,13 @@
       },
       {
         "name": "Vaccines",
-        "description": "Service 2 is all about providing great solutions.",
+        "description": "Experience the ease of getting vaccinated at your local pharmacy. Protect your health efficiently with a variety of vaccines available, streamlining your wellness routine.",
         "image": "https://images.unsplash.com/photo-1612278248166-11be4a227f54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "mobileImg": "/vacMobile.jpg"
       },
       {
         "name": "Prescriptions",
-        "description": "Get the best service with Service 3.",
+        "description": "Enjoy the simplicity of filling prescriptions at your local pharmacy. Get your medications promptly and with personalized care, making managing your health straightforward and stress-free.",
         "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?q=80&w=1779&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "mobileImg": "/perMobile.jpg"
       }
