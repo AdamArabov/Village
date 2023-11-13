@@ -1,7 +1,6 @@
 'use client'
 import servicesData from './service.json'
 
-
 export default function Service() {
   return (
     <div className="service-container">

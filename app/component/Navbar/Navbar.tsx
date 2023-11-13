@@ -16,6 +16,10 @@ export default function Navbar() {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <nav className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 shadow-md sticky top-0 z-10">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -44,27 +48,27 @@ export default function Navbar() {
           <div className="w-full md:hidden">
             <ul className="font-medium flex flex-col p-4 mt-4 text-center rounded-lg ">
               <li>
-                <Link href="/" className={pathname === '/' ? activeElement : nonActiveElement}>
+                <Link href="/" onClick={closeMobileMenu} className={pathname === '/' ? activeElement : nonActiveElement}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/services" className={pathname === '/services' ? activeElement : nonActiveElement}>
+                <Link href="/services" onClick={closeMobileMenu} className={pathname === '/services' ? activeElement : nonActiveElement}>
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/products" className={pathname === '/products' ? activeElement : nonActiveElement}>
+                <Link href="/products" onClick={closeMobileMenu} className={pathname === '/products' ? activeElement : nonActiveElement}>
                   Products
                 </Link>
               </li>
               <li>
-                <Link href="/photos" className={pathname === '/photos' ? activeElement : nonActiveElement}>
+                <Link href="/photos" onClick={closeMobileMenu} className={pathname === '/photos' ? activeElement : nonActiveElement}>
                   Photos
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className={pathname === '/contact' ? activeElement : nonActiveElement}>
+                <Link href="/contact" onClick={closeMobileMenu} className={pathname === '/contact' ? activeElement : nonActiveElement}>
                   Contact Us
                 </Link>
               </li>

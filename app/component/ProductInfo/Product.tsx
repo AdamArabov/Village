@@ -1,5 +1,6 @@
 import productsData from './product.json'
 
+//take photo from product, make it home
 export default function Product() {
     const featuredImage = '/interior1.jpg'; 
     const otherProducts = productsData.products;

@@ -2,6 +2,8 @@
 import photosData from "./photo.json"
 import { useState,useEffect } from "react";
 
+//add all his photos
+
 export default function Photo() {
     const [currentIndex, setCurrentIndex] = useState(0);
 

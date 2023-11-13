@@ -17,6 +17,24 @@
         "description": "Enjoy the simplicity of filling prescriptions at your local pharmacy. Get your medications promptly and with personalized care, making managing your health straightforward and stress-free.",
         "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?q=80&w=1779&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "mobileImg": "/perMobile.jpg"
+      },
+      {
+        "name": "Delivery",
+        "description": "Enjoy the simplicity of filling prescriptions at your local pharmacy. Get your medications promptly and with personalized care, making managing your health straightforward and stress-free.",
+        "image": "https://images.unsplash.com/photo-1512418490979-92798cec1380?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "mobileImg": "/delMobile.jpg"
+      },
+      {
+        "name": "Notary Public",
+        "description": "Enjoy the simplicity of filling prescriptions at your local pharmacy. Get your medications promptly and with personalized care, making managing your health straightforward and stress-free.",
+        "image": "https://images.unsplash.com/photo-1614605844432-731c32334c49?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "mobileImg": "/notMobile.jpg"
+      },
+      {
+        "name": "Passport Photos",
+        "description": "Enjoy the simplicity of filling prescriptions at your local pharmacy. Get your medications promptly and with personalized care, making managing your health straightforward and stress-free.",
+        "image": "https://images.unsplash.com/photo-1487637419635-a2a471ff5c7b?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "mobileImg": "/passMobile.jpg"
       }
     ]
   }
