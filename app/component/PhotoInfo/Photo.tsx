@@ -50,14 +50,15 @@ export default function Photo() {
               className="absolute top-4 left-4 p-2 rounded-full bg-white text-black hover:bg-gray-200"
               onClick={() => setShowFullImage(false)}
             >
-              Close
+              X
             </button>
             <div className="absolute bottom-4 left-4 space-x-2">
             <button
           className="p-2 rounded-full bg-white text-black hover:bg-gray-200"
           onClick={handlePrevClick}
         >
-          Previous
+          ←
+
         </button>
               </div>
             <div className="absolute bottom-4 right-4 space-x-2">
@@ -66,7 +67,7 @@ export default function Photo() {
           className="p-2 rounded-full bg-white text-black hover:bg-gray-200"
           onClick={handleNextClick}
         >
-          Next
+          →
         </button>
       </div>
       
