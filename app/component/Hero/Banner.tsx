@@ -7,7 +7,7 @@ export default function Banner() {
       <div
         className="bg-cover bg-center min-h-[320px] md:min-h-[570px] h-auto mx-auto"
         style={{
-          backgroundImage: 'url(https://lh3.googleusercontent.com/p/AF1QipMF4Ol0QJx45FzdCodAwPQJTHcBvmOMZlGM1BV7=s1360-w1360-h1020)',
+          backgroundImage: 'url(/Banner.jpg)',
           margin: '16px',
           backgroundColor: '#ffffff',
         }}
