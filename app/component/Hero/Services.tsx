@@ -109,7 +109,7 @@ export default function Services(){
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 <div className="flex items-center justify-center flex-wrap text-center">
-                  <Link href="/services#service-5" className="text-vill inline-flex justify-center md:mb-2 lg:mb-0">Prescription</Link>
+                  <Link href="/services#service-5" className="text-vill inline-flex justify-center md:mb-2 lg:mb-0">Passport Photos</Link>
                 </div>
               </div>
             </div>
