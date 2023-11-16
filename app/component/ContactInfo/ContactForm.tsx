@@ -16,6 +16,7 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="max-w-md mx-auto">
       <div className="mb-4">
+        <h1 className='text-center text-lg mb-4 font-bold'>Have any Questions? Contact Us</h1>
         <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">
           Email Address
         </label>
