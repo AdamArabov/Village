@@ -16,10 +16,10 @@ export default function Services(){
                 priority ={true}
               />
               <div className="p-6 text-center">
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">DMV Vision Test</h1>
+                <p className="leading-relaxed mb-3">We provide DMV vision tests. Results updated immediately.</p>
                 <div className="flex items-center justify-center flex-wrap text-center">
-                  <Link href="/services#service-0" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">DMV Vision Test</Link>
+                  <Link href="/services#service-0" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Learn More</Link>
                 </div>
               </div>
             </div>
@@ -34,10 +34,10 @@ export default function Services(){
                  priority ={true}
               />
               <div className="p-6 text-center">
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Immunizations</h1>
+                <p className="leading-relaxed mb-3">We administer a wide variety of vaccines. Shingles, Flu, Covid-19 etc.</p>
                 <div className="flex items-center justify-center flex-wrap text-center">
-                  <Link href="/services#service-1" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Vaccines</Link>
+                  <Link href="/services#service-1" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Learn More</Link>
                 </div>
               </div>
             </div>
@@ -52,10 +52,10 @@ export default function Services(){
                  priority ={true}
               />
               <div className="p-6 text-center">
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Prescriptions</h1>
+                <p className="leading-relaxed mb-3">We will make transfering from chain pharmacy's easy and effective.</p>
                 <div className="flex items-center justify-center flex-wrap text-center">
-                  <Link href="/services#service-2" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Prescriptions</Link>
+                  <Link href="/services#service-2" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Learn More</Link>
                 </div>
               </div>
             </div>
@@ -70,10 +70,10 @@ export default function Services(){
                  priority ={true}
               />
               <div className="p-6 text-center">
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">We Deliver!</h1>
+                <p className="leading-relaxed mb-3">Get free same-day local delivery on your prescriptions.</p>
                 <div className="flex items-center justify-center flex-wrap text-center">
-                  <Link href="/services#service-3" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Delivery</Link>
+                  <Link href="/services#service-3" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Learn More</Link>
                 </div>
               </div>
             </div>
@@ -88,10 +88,10 @@ export default function Services(){
                  priority ={true}
               />
               <div className="p-6 text-center">
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Notary Public</h1>
+                <p className="leading-relaxed mb-3">We are committed to making the notarization process as convenient and stress-free as possible</p>
                 <div className="flex items-center justify-center flex-wrap text-center">
-                  <Link href="/services#service-4" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Notary</Link>
+                  <Link href="/services#service-4" className="text-vill inline-flex items-center md:mb-2 lg:mb-0">Learn More</Link>
                 </div>
               </div>
             </div>
@@ -106,10 +106,10 @@ export default function Services(){
                  priority ={true}
               />
               <div className="p-6 text-center">
-                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Passport Photos</h1>
+                <p className="leading-relaxed mb-3">Providing convenience and customer satisfaction in providing you with the passport photos you need.</p>
                 <div className="flex items-center justify-center flex-wrap text-center">
-                  <Link href="/services#service-5" className="text-vill inline-flex justify-center md:mb-2 lg:mb-0">Passport Photos</Link>
+                  <Link href="/services#service-5" className="text-vill inline-flex justify-center md:mb-2 lg:mb-0">Learn More</Link>
                 </div>
               </div>
             </div>
