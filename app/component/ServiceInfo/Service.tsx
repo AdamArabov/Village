@@ -14,7 +14,7 @@ export default function Service() {
           }}
         >
           <div
-            className={`sm:bg-cover sm:h-full md:h-screen lg:h-screen`}
+            className={` md:h-screen lg:h-screen`}
             style={{
               backgroundImage: `url(${service.image})`,
               backgroundAttachment: 'fixed',
