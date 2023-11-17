@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 shadow-md sticky top-0 z-10">
+    <nav className="bg-white border border-gray-200  shadow-md sticky top-0 z-10">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
         <Image
@@ -31,13 +31,13 @@ export default function Navbar() {
          width={200}
          />
 
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap"></span>
         </Link>
 
         { /* Mobile Menu Button (visible in mobile view) */ }
         <button
           onClick={toggleMobileMenu}
-          className="md:hidden ml-auto text-gray-700 dark:text-gray-300 focus:outline-none">
+          className="md:hidden ml-auto text-gray-700  focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
           </svg>
