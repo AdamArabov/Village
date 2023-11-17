@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "Village Square Pharmacy",
     openGraph: {
       images: [
-        '/Photo (14).jpg',
+        "/Photo (14).jpg",
       ],
     },
   };
