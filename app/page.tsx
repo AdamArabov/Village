@@ -1,5 +1,6 @@
 import About from "./component/Hero/About";
 import Banner from "./component/Hero/Banner";
+import Promo from "./component/Hero/Promo";
 import Services from "./component/Hero/Services";
 import Map from "./component/Map/Map";
 import { Metadata } from "next";
@@ -20,6 +21,7 @@ export default function Home() {
     <main >
      
       <Banner/>
+        <Promo />
         <About />
         <Services />
         <Map/>
