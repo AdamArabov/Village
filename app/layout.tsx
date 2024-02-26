@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/react"
 import './globals.css'
 import Navbar from './component/Navbar/Navbar'
 import Footer from './component/Footer/Footer'
@@ -22,6 +23,7 @@ export default function RootLayout({
 }) {
   return (
 <html lang="en">
+<Analytics/>
   <body className={inter.className} style={{ display: "grid", gridTemplateRows: "auto 1fr auto", minHeight: "100vh" }}>
     <Navbar />
     <div className="mx-4">
